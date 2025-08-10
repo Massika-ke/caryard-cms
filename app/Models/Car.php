@@ -13,7 +13,7 @@ class Car extends Model
 
     protected $primaryKey = 'id';
 
-    protected $fillable = ['name', 'founded', 'description', 'image_path'];
+    protected $fillable = ['name', 'founded', 'description', 'image_path', 'user_id'];
 
     // car has many models
     public function carModels(){

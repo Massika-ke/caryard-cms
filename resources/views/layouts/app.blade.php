@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    
 </head>
 <body>
     <div id="app">
@@ -81,7 +82,7 @@
 
 
 
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -94,4 +95,4 @@
 <body class="bg-gradient-to-r from-gray-100 to-gray-200">
     @yield('content')
 </body>
-</html>
+</html> --}}
